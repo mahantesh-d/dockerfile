@@ -1,0 +1,5 @@
+FROM mahanteshd4140/python:3.7
+
+RUN pip3.7 install ansible
+
+CMD ansible --version
